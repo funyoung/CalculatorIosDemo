@@ -21,6 +21,7 @@
 		0449068A182F96BF00836CB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0449066C182F96BF00836CB7 /* UIKit.framework */; };
 		04490692182F96BF00836CB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04490690182F96BF00836CB7 /* InfoPlist.strings */; };
 		04490694182F96BF00836CB7 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04490693182F96BF00836CB7 /* CalculatorTests.m */; };
+		0449069F182FBA2D00836CB7 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449069E182FBA2D00836CB7 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0449068F182F96BF00836CB7 /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		04490691182F96BF00836CB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04490693182F96BF00836CB7 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		0449069D182FBA2D00836CB7 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		0449069E182FBA2D00836CB7 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				0449067A182F96BF00836CB7 /* Main.storyboard */,
 				0449067D182F96BF00836CB7 /* CalculatorViewController.h */,
 				0449067E182F96BF00836CB7 /* CalculatorViewController.m */,
+				0449069D182FBA2D00836CB7 /* CalculatorBrain.h */,
+				0449069E182FBA2D00836CB7 /* CalculatorBrain.m */,
 				04490680182F96BF00836CB7 /* Images.xcassets */,
 				0449066F182F96BF00836CB7 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				04490679182F96BF00836CB7 /* CalculatorAppDelegate.m in Sources */,
 				04490675182F96BF00836CB7 /* main.m in Sources */,
+				0449069F182FBA2D00836CB7 /* CalculatorBrain.m in Sources */,
 				0449067F182F96BF00836CB7 /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
